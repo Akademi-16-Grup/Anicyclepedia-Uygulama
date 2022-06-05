@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.foranimals.foranimals">
+    package="com.example.anicyclepedia_deneme">
    <application
-        android:label="foranimals"
+        android:label="anicyclepedia_deneme"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

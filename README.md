@@ -1,6 +1,6 @@
-# foranimals
+# anicyclepedia_deneme
 
-For Animals Flutter project.
+A new Flutter project.
 
 ## Getting Started
 
