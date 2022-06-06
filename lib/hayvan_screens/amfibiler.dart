@@ -21,8 +21,6 @@ List<GorselBilgiEkrani> _images = [
     'Ambystoma mexicanum veya aksolotl,semender türüdür.Bu türün larvaları başkalaşım geçirmezler, bu nedenden yetişkinleri suda yaşar ve solungaçları vardır. Bu türün habitatı asıl olarak Meksika Chalco Gölü ve Meksika\'nın dağ gölleridir.Aksolotllar, vücutlarının çeşitli parçalarını ve uzuvlarını yeniden üretebilme yeteneğine sahip olduklarından, kolay üretilebildiklerinden ve embriyolarının büyük oluşundan dolayı bilimsel araştırmalarda yaygın olarak kullanılır. Birçok ülkede ev hayvanı olarak da yetiştirilmektedir.'
   ),
 
- 
-
 ];
 
 class AmfibilerPage extends StatelessWidget {
@@ -36,23 +34,23 @@ class AmfibilerPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children:[
               Container(
-                padding: EdgeInsets.symmetric(
+                padding: const EdgeInsets.symmetric(
                     horizontal: 30,
                     vertical: 20,
                   ), 
-                  child: Column(children: [
+                  child: Column(children: const [
               Text(
                 'Amfibiler',
                 style: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.w600,
-                  color: Colors.pink,
+                  color: Color.fromARGB(255, 250, 102, 151),
                 ),
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: 10,),
               Text(
-                "XXXXX, yavrularını beslemek için meme bezlerinden süt üretip salgılar. Vücutlarında çokca kıllar vardır, kıllar soğukta hayatta kalmalarını sağlar. (Görsellere dokunun)",
+                "İki yaşamlılar ya da iki yaşayışlılar, amfibiler, amfibyumlar (Latince: Amphibia), amniyotik yumurtaya sahip olmayan, değişkensıcaklı, derisi çıplak ve nemli, göğüs kemiği hiçbir zaman kaburgalarla bağlanmamış, çoğu ses çıkarabilen, omurgalı hayvan sınıfı. Sınıf, Gymnophiona, Anura ve Caudata olmak üzere 3 takımdan oluşur.",
                 style: TextStyle(fontSize: 18),
                 ),
 

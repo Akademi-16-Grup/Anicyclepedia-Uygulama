@@ -81,7 +81,6 @@ class BilgiEkrani extends StatelessWidget {
                           ),
                         ),
                       ),
-                     //bi expanded daha ekleyip "favoriye ekle" butonu eklenebilir
                     ],
                   )
                 ],

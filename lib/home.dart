@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
                 decoration: BoxDecoration(color: Colors.white),
                 child: const 
                 Text(
-                  'Hayvanlar ve Türleri Hakkında',
+                  'Hayvanlar ve Türleri',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w600,
@@ -48,19 +48,16 @@ class HomePage extends StatelessWidget {
                       topRight: Radius.circular(40),
                     ),
                   ),
-                  child: Column(
+                  child: ListView(
+                    scrollDirection: Axis.vertical,
                     children: [
-
                       Text(
                         "Hayvanlar sinir sistemleri ve yiyeceklerini takip etme veya yakalama yeteneği ile donatılmış karmaşık, çok hücreli organizmalardır. Altı geniş kategoriye ayrılabilir. İşte altı ana hayvan grubu.",
                         style: TextStyle(fontSize: 20),
                       ),
-    
+
                       SizedBox(height: 15,),
                       
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
                       SizedBox(
                         width: 170,
                         child: ElevatedButton(onPressed: (){
@@ -79,7 +76,7 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
 
-                      SizedBox(width: 10,),
+                      SizedBox(height: 10,),
 
                        SizedBox(
                         width: 170,
@@ -101,14 +98,9 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                       ),
-                          
-                        ],
-                      ),
 
+                      SizedBox(height: 10,),
 
-                      Row(  
-                        mainAxisAlignment: MainAxisAlignment.center,                    
-                        children: [
                       SizedBox(
                         width: 170,
                         child: ElevatedButton(onPressed: (){
@@ -148,13 +140,7 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
 
-                        ],
-                      ),
-
-
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [  
+                      SizedBox(height: 10,),
 
                       SizedBox(
                         width: 170,
@@ -175,7 +161,7 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
 
-                      SizedBox(width: 10,),
+                      SizedBox(height: 10,),
 
                       SizedBox(
                         width: 170,
@@ -196,15 +182,10 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
 
-
-                        ],
-                      ),
-
                     ],
                   ),
                   ),
-
-              )
+              ),
             ],
           ),
         ),

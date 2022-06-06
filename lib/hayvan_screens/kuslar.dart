@@ -57,7 +57,7 @@ class KuslarPage extends StatelessWidget {
               ),
               SizedBox(height: 10,),
               Text(
-                "Memeliler, yavrularını beslemek için meme bezlerinden süt üretip salgılar. Vücutlarında çokca kıllar vardır, kıllar soğukta hayatta kalmalarını sağlar. (Görsellere dokunun)",
+                "Kuşlar; tüyleri, dişsiz gagaları, yumurtladıkları sert kabuklu yumurtalar yoluyla üreyen, yüksek metabolizma hızına sahip, dört odacıklı kalpleri ve hafif ama güçlü bir iskelet yapısına sahip, Aves sınıfını oluşturan sıcakkanlı omurgalı hayvanlar grubudur. Kuşların boyutları arı sinek kuşunda 5 cm ila deve kuşunda 2,75 m arasında değişir. On bin kadar yaşayan kuş türü bulunur. ",
                 style: TextStyle(fontSize: 18),
                 ),
 

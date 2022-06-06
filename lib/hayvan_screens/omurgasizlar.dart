@@ -57,7 +57,7 @@ class OmurgasizlarPage extends StatelessWidget {
               ),
               SizedBox(height: 10,),
               Text(
-                "XXXX, yavrularını beslemek için meme bezlerinden süt üretip salgılar. Vücutlarında çokca kıllar vardır, kıllar soğukta hayatta kalmalarını sağlar. (Görsellere dokunun)",
+                "Omurgasız olarak adlandırılan canlıların yapılarında hiçbir iç iskelet bulunmaz. Omurgasız hayvanlardan bazıları; çekirge, örümcek, kelebek, sinek, solucan, ahtapot, yengeç, ıstakoz, midye ve denizanasıdır",
                 style: TextStyle(fontSize: 18),
                 ),
 

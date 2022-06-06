@@ -58,7 +58,7 @@ class BaliklarPage extends StatelessWidget {
               ),
               SizedBox(height: 10,),
               Text(
-                "Memeliler, yavrularını beslemek için meme bezlerinden süt üretip salgılar. Vücutlarında çokca kıllar vardır, kıllar soğukta hayatta kalmalarını sağlar. (Görsellere dokunun)",
+                "Balıklar (Latince: pisces) poikloterm olan, neredeyse sadece suda yaşayan ve solungaçları ile solunum yapan, soğuk kanlı, yürekleri çift gözlü, çoğunun vücudu pullu, genellikle yumurta ile üreyen omurgalı hayvanlardır. Bazı türler canlı doğurarak ürer. Mesela tatlı su balıklarından Lepistes'in yumurtaları anne karnında çatlar ve canlı doğum gerçekleşir.",
                 style: TextStyle(fontSize: 18),
                 ),
 

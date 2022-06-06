@@ -51,10 +51,9 @@ class SurungenlerPage extends StatelessWidget {
               ),
               SizedBox(height: 10,),
               Text(
-                "Memeliler, yavrularını beslemek için meme bezlerinden süt üretip salgılar. Vücutlarında çokca kıllar vardır, kıllar soğukta hayatta kalmalarını sağlar. (Görsellere dokunun)",
+                "Sürüngenler (Latince: Reptilia), omurgalıların soğukkanlı, yumurtlayarak çoğalan, büyük bir sınıfı. Basitçe yılanlar, kertenkeleler, kaplumbağalar, timsahlar ve tuataralardan oluşur. Vücutlarının pul ya da benzer levhalarla kaplı olması nem kaybını en az düzeyde tutmalarını sağlar, bu sayede kurak ortamlara oldukça iyi uyum sağlarlar.",
                 style: TextStyle(fontSize: 18),
                 ),
-
                   ],),
               ),
 
